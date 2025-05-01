@@ -53,6 +53,6 @@ class MovesDatabaseTest {
         val pokemon = SampleMoves
         movesDao.insertAll(*(pokemon.toTypedArray()))
         val allMoves = movesDao.getAll()
-        assertEquals(allMoves.size, 4)
+        assertEquals(allMoves.size, 5)
     }
 }
