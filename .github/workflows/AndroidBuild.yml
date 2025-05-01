@@ -32,8 +32,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run Unit test
         run: ./gradlew clean testDebug
+
+      # Runs a single command using the runners shell
   android_tests:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v4.1.1
         - name: Setup Java JDK
@@ -44,5 +46,5 @@ jobs:
         - name: Instrumented Tests
           uses: reactivecircus/android-emulator-runner@v2
           with:
-              api-level: 35
+              api-level: 34
               script: ./gradlew connectedDebugAndroidTest
