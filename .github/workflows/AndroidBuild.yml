@@ -31,7 +31,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Unit test
-        run: ./gradlew clean testDebug
+        run: ./gradlew clean testDebug --scan
 
       # Runs a single command using the runners shell
   android_tests:
