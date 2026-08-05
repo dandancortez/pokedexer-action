@@ -4,7 +4,7 @@
     <string name="featureInProgressTitle">🚧 Feature WIP</string>
     <string name="dismissButtonText">Dismiss</string>
     <string name="homeTitle">What Pokémon\nare you looking for?</string>
-    <string name="pokemonOfTheDayLabel">Pokemon of the Day</string>
+    <string name="pokemonOfTheDayLabel">Friend of the Day</string>
     <string name="pokemonLabel">Pokémon</string>
     <string name="movesLabel">Moves</string>
     <string name="itemsLabel">Items</string>
